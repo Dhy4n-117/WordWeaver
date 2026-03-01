@@ -1,6 +1,6 @@
 # WordWeaver
 
-WordWeaver is a custom wordlist generator designed for personalized dictionary attacks. Inspired by tools like `cupp`, it builds highly targeted wordlists based on user profiling. By taking inputs such as names, birthdates, pets, and specific keywords, WordWeaver intelligently combines them with common suffixes, dates, and special characters to generate a comprehensive list of potential passwords.
+WordWeaver is a custom wordlist generator designed for personalized dictionary attacks. It builds highly targeted wordlists based on user profiling. By taking inputs such as names, birthdates, pets, and specific keywords, WordWeaver intelligently combines them with common suffixes, dates, and special characters to generate a comprehensive list of potential passwords.
 
 ## Features
 - **Interactive Profiling**: Prompt-based interactive mode to quickly build a target profile.
@@ -13,7 +13,7 @@ WordWeaver is a custom wordlist generator designed for personalized dictionary a
 Ensure you have Python 3 installed. No external dependencies or libraries are required.
 
 ```bash
-git clone <YOUR-REPO-LINK-HERE>
+git clone(https://github.com/Dhy4n-117/WordWeaver)
 cd WordWeaver
 ```
 
@@ -41,11 +41,10 @@ You will be prompted to enter target details:
 usage: wordweaver.py [-h] [-i] [-o OUTPUT] [-q]
 
 options:
-  -h, --help            show this help message and exit
-  -i, --interactive     Launch interactive prompt for profiling target (default behavior)
-  -o OUTPUT, --output OUTPUT
-                        Specify output file name. Default: <firstname>_wordlist.txt
-  -q, --quiet           Do not print the banner
+  -h, --help                    show this help message and exit
+  -i, --interactive             Launch interactive prompt for profiling target (default behavior)
+  -o OUTPUT, --output OUTPUT    Specify output file name. Default: <firstname>_wordlist.txt
+  -q, --quiet                   Do not print the banner
 ```
 
 ### Examples
