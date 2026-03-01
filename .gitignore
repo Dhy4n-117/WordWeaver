@@ -1,0 +1,11 @@
+# Ignore generated text files (wordlists) to prevent accidental uploads
+*.txt
+!requirements.txt
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
