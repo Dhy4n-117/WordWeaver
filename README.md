@@ -13,7 +13,7 @@ WordWeaver is a custom wordlist generator designed for personalized dictionary a
 Ensure you have Python 3 installed. No external dependencies or libraries are required.
 
 ```bash
-git clone(https://github.com/Dhy4n-117/WordWeaver)
+git clone (https://github.com/Dhy4n-117/WordWeaver)
 cd WordWeaver
 ```
 
