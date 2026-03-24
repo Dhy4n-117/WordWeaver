@@ -1,5 +1,5 @@
 # WordWeaver
-
+ 
 WordWeaver is a custom wordlist generator designed for personalized dictionary attacks. It builds highly targeted wordlists based on user profiling. By taking inputs such as names, birthdates, pets, and specific keywords, WordWeaver intelligently combines them with common suffixes, dates, and special characters to generate a comprehensive list of potential passwords.
 
 ## Features
